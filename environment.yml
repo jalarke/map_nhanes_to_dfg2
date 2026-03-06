@@ -1,0 +1,11 @@
+name: map_nhanes_to_dfg2
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - numpy
+  - scikit-learn
+  - nltk
+  - pip
+  - pip:
+    - polyfuzz
